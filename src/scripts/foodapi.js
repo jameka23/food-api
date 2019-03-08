@@ -1,6 +1,6 @@
 console.log("linked")
 // created var that will get the body in which the foods will be displayed in
-const entriesOnDom = document.querySelector('#foodlist')
+const entriesOnDom = document.querySelector('.foodlist')
 
 // creating a component that will be called in the fetch that will display all the items on to the dom 
 const htmlOnDom = (foodsContainer) => {
