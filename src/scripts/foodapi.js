@@ -5,3 +5,5 @@ fetch("http://localhost:8088/foods")
     .then(parsedFoods => {
         console.table(parsedFoods)
     })
+
+const entriesOnDom = document.querySelector('#foodlist')
